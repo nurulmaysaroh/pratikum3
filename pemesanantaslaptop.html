@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html style="margin: 0; padding: 0;">
+<head>
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form Pemesanan Barang</title>
+</head>
+<fieldset style="background-color: wheat;">
+<body style="background-color: wheat; margin: 15; font-family :'Times New Roman;">
+    
+    <div style="width: 100%; height: 5vh;">
+        <nav style="border: 2px solid black; display: flex; justify-content: center; width: 100%;">
+            <table style="background-color: white; padding: 10px">
+                <tr style="">
+                    <td padding="10px" width="250px" align="center"><a href="#"style="color : black; text-decoration: none;">HOME</a>
+                        |</td>
+                    <td padding="10px" width="250px" align="center"><a href="#"style="color : black; text-decoration: none;">GENERATE 
+                        LINK</a> |</td>
+                     <td padding="10px" width="250px" align="center"><a href="#"style="color : black; text-decoration: none;"
+                        >TRANSACTION HISTORY</a> |</td>
+                    <td padding="10px" width="250px" align="center"><a href="#"style="color : black; text-decoration: none;">POLICY</a>
+                        |</td>
+                    <td padding="10px" width="250px" align="center"><a href="#"style="color : black; text-decoration: none;">LOGOUT</a>
+                        |</td>
+                </tr>
+            </table>
+        </nav>
+    </div>
+    <br  />
+    <div style="display: flex; justify-content: center; align-items: center; width 100%;">
+        <table style="width: 100%;">
+            <tr>
+                <td style="float: left" width="248"><img src="laptop.jpg" width="200" height="150px" /><br /><br /><button type
+                    ="button" style="border: 1px; width: 200px; height: 30px; box-shadow: 3px 3px 5px 0px rgba(0,0,0,1); font-family: 
+                    Times New Roman">Upload Picture<button></td>
+                <td>
+                    <form action="">
+                        <table style="float: left;">
+                            <tr>
+                                <td style="width: 200px;"><label for="title">Title Here :</label></td>
+                                <td style="width: 50px;"></td>
+                                <td><input type="text" id="title" value="MacBook Air $800"></td>
+                            </tr>
+                            <tr>
+                                <td style="float: left"><label for="deskripsi">Description :</label></td>
+                                <td style="width: 50px"></td>
+                                <td><textarea id="deskripsi" cols="23" rows="5" placeholder="type here"></textarea></td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    <label for="akun">Account Number :</label>
+                                </td>
+                                <td style="width: 50px;"></td>
+                                <td><input type="text" id="akun" value="123-456-789-0"></td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    <label for="bank">Bank :</label>
+                                </td>
+                                <td style="width: 50px;"></td>
+                                <td>
+                                    <select id="bank">
+                                        <option>HSBC</option>
+                                        <option>BRI</option>
+                                        <option>SIMPEDES</option>
+                                    </select>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td style="background-color:bisque"><input type="checkbox"> Send To Mobile Phone </td>
+                            </tr>
+                            <tr>
+                                <td></td>
+                                <td></td>
+                                <td style="background-color:bisque"><input type="checkbox"> Send To Email </td>
+                            </tr>
+                            <tr>
+                                <td></td>
+                                <td><label for="Mobile Phone"> Send To Mobile Phone : </label></td>
+                                <td><input type="number" id="Mobile Phone"></td>
+                            </tr>
+                            <tr>
+                                <td></td>
+                                <td><label for="Email"> Send To Email : </label></td>
+                                <td><input type="email" id="Email"></td>
+                            </tr>
+                            <tr>
+                                <td></td>
+                            </tr>
+                            <tr>
+                                <td></td>
+                            </tr>
+                            <tr>
+                                <td></td>
+                            </tr>
+                            <tr>
+                                <td></td>
+                                <td style="width: 5opx;"></td>
+                                <td><br><br>
+                                    <a href="result.html" style="color: white; text-decoration:none;"><button type="submit" style
+                                        ="width: 50%; background-color: green; color: white; font-family: 'Times New Roman', Times, serif;">Generate 
+                                        Nabr Link</a></button>
+                                </td>
+                            </tr>
+                        </table>
+                    </form>
+                </td>
+            </tr>
+        </table>
+    </div>
+</body>
+</html>
